@@ -1,0 +1,7 @@
+DOM(Document Object Model) : 웹 페이지의 구조화된 표현으로 HTML 및 XML 문서의 프로그래밍 인터페이스이다.
+
+Node : 문서의 모든 요소를 나타내는 기본 단위이다.
+Node 유형: 요소 노드, 텍스트 노드, 속성 노드, 주석 노드 등
+NodeList: DOM 메서드(querySelectorAll 등)로 생성되며, 여러 노드를 포함하는 컬렉션이다. 정적 NodeList, 동적 NodeList가 있다.
+제한된 메서드(forEach 등)만 지원하기 때문에 NodeList를 'Array.from()'을 사용하여 Array로 변환할 수 있다.
+=> Node들이 줄줄이 나열되어 있는 List를 'NodeList'라고 덩어리로 부르는 것
